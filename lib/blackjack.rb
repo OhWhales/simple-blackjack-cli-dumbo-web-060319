@@ -71,8 +71,7 @@ sum = 0
 until sum > 21 
   welcome 
   initial_round
-  hit? 
-  sum = display_card_total
+  hit?(initial_round)
 end 
 end
     
