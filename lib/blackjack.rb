@@ -70,8 +70,8 @@ sum = 0
 
 until sum > 21 
   welcome 
-  initial_round
-  hit?(initial_round)
+  x=initial_round
+  hit?(x)
 end 
 end
     
