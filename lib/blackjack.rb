@@ -72,7 +72,7 @@ until sum > 21
   welcome 
   x=initial_round
   until x > 21 
-    z=hit?(x)
+    x=hit?(x)
     display_card_total(z)
 end 
 end
