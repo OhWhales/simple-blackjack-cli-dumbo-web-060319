@@ -71,7 +71,8 @@ sum = 0
 until sum > 21 
   welcome 
   x=initial_round
-  hit?(x)
+  y=hit?(x)
+  display_card_total()
 end 
 end
     
