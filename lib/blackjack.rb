@@ -75,5 +75,6 @@ def runner
       x=hit?(x)
       display_card_total(z)
     end 
+  end_game(x)
 end
     
