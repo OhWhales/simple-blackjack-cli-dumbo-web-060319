@@ -66,15 +66,13 @@ end
 #####################################################
 
 def runner
-  sum = 0 
 
-  until sum > 21 
-    welcome 
-    x=initial_round
-    until x > 21 
-      x=hit?(x)
-      display_card_total(z)
-    end 
+  welcome 
+  x=initial_round
+  until x > 21 
+    x=hit?(x)
+    display_card_total(z)
+  end 
   end_game(x)
 end
     
