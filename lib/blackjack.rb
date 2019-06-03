@@ -72,8 +72,8 @@ until sum > 21
   welcome 
   x=initial_round
   y=hit?(x)
-  display_card_total(y)
-  end_game
+  z=display_card_total(y)
+  end_game(z)
 end 
 end
     
