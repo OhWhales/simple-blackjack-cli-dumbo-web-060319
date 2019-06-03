@@ -72,7 +72,7 @@ until sum > 21
   welcome 
   x=initial_round
   until x > 21 
-    z=hit?()
+    z=hit?(x)
   end_game(z)
 end 
 end
