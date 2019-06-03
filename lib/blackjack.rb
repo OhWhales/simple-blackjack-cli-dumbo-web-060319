@@ -71,7 +71,7 @@ sum = 0
 until sum > 21 
   welcome 
   x=initial_round
-  until x 
+  until x > 21 
   z=display_card_total(y)
   end_game(z)
 end 
